@@ -22,7 +22,7 @@ What I did was:
 - I want to write "Hello world!!"
 - I want to write it with "Franklin.ttf" TrueType font, placed on the current directory.
 - I want to write it with a size of 50.
-- I saved the object on the $im variable.
+- I saved the object on the $img variable.
 
 ###Showing the image
 	$img->show();
