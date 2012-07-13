@@ -1,6 +1,7 @@
 README:
 =========
 ![preview](https://github.com/alvarotrigo/PHP-Backend/blob/master/textPainter/textPainter.jpg?raw=true)
+
 Live demo at: http://alvarotrigo.com/blog/demos/writingOverImageFile.php
 
 textPainter class
