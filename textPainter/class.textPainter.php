@@ -133,8 +133,9 @@ error_reporting(E_ALL);
     }
 
     private function setFormat(){
-    	$this->format = ereg_replace(".*\.(.*)$","\\1",$this->imagePath);
-		$this->format = strtoupper($this->format);
+        $pathInfo = pathinfo($this->imagePath);
+        $extension = $pathInfo['extension'];
+        $this->format = strtoupper($extension);
 
    		if($this->format=="JPG" || $this->format=="JPEG"){
 			$this->format="JPEG";
