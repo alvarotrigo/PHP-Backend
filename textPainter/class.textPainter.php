@@ -1,14 +1,16 @@
 <?php
-
 /**
+ * TextPainter.php
  *
  * This class allows to print text over a given image.
  * It needs from a TrueType font format (ttf).
  *
  * The resulting image will be show in png format.
  *
- * @author alvarotrigolopez
- * @see http://www.php.net/manual/es/ref.image.php
+ * https://github.com/alvarotrigo/PHP-Backend/tree/master/textPainter
+ * @license MIT licensed
+ *
+ * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
  */
 class textPainter{
 	private $img;
